@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.williammorland.py3db</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>7D9DF57A-5DF9-5DB9-AB88-88DAC6AD7FB1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>50210409-4BFA-45C8-A76D-E6983E3001C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>William Morland</string>
+	<key>description</key>
+	<string>A default browser switcher</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Py3 Default Browser</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/python3 defaultbrowser.py --set {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>50210409-4BFA-45C8-A76D-E6983E3001C2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>db</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Looking up available browsers</string>
+				<key>script</key>
+				<string>/usr/bin/python3 defaultbrowser.py</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>entrypoint.py</string>
+				<key>subtext</key>
+				<string>Looking up available browsers</string>
+				<key>title</key>
+				<string>Default Browser</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7D9DF57A-5DF9-5DB9-AB88-88DAC6AD7FB1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Py3 Default Browser
+
+This workflow makes it simple to change your default browser from alfred. The default shortcut is 'db' and you can then pick a browser from the list of available options. macOS requires you to confirm the change in a pop up dialog.
+
+## Acknowledgements
+
+Thank you to deanishe for the alfred-workflow library and NorthIsUp for updating it to Python 3.
+
+Thank you to kerma for their work on the defaultbrowser tool which was a valuable reference.</string>
+	<key>uidata</key>
+	<dict>
+		<key>50210409-4BFA-45C8-A76D-E6983E3001C2</key>
+		<dict>
+			<key>note</key>
+			<string>This runs the action to set the chosen browser as default. The user will still have to manually confirm their choice.</string>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>7D9DF57A-5DF9-5DB9-AB88-88DAC6AD7FB1</key>
+		<dict>
+			<key>note</key>
+			<string>This filter looks up which browsers are installed as well as the current default to populate the menu to pick from.</string>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/wmorland</string>
+</dict>
+</plist>
