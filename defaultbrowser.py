@@ -8,10 +8,8 @@ import sys
 
 import __version__
 
-# setup access to the local .site-packages
-sys.path.insert(
-    0, os.path.dirname(os.path.abspath(__file__)) + "/.site-packages"
-)  # noqa
+# setup access to the local lib directory
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/lib")  # noqa
 
 import workflow
 from workflow import Workflow3
@@ -74,9 +72,5 @@ if __name__ == "__main__":
     elif args.current:
         print(get_current_default_browser())
     else:
-        # Create a global `Workflow3` object
         nwf = Workflow3()
-        # Call your entry function via `Workflow3.run()` to enable its
-        # helper functions, like exception catching, ARGV normalization,
-        # magic arguments etc.
         nwf.run(main)
