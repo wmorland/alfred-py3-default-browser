@@ -55,8 +55,6 @@ any issues or prefer an alternative form of encrypted communication.
 
 https://keys.openpgp.org/search?q=9AEC89F0B43B891754292434C0394F55B26FEB90
 
-[openpgp4fpr:9AEC89F0B43B891754292434C0394F55B26FEB90](openpgp4fpr:9AEC89F0B43B891754292434C0394F55B26FEB90)
-
 ```Public Key
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
