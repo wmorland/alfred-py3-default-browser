@@ -61,13 +61,13 @@
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -95,7 +95,7 @@
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -122,7 +122,7 @@ Thank you to kerma for their work on the defaultbrowser tool which was a valuabl
 			<key>note</key>
 			<string>This runs the action to set the chosen browser as default. The user will still have to manually confirm their choice.</string>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>625</integer>
 			<key>ypos</key>
 			<integer>100</integer>
 		</dict>

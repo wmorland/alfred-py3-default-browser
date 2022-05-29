@@ -6,5 +6,8 @@
         <fileSet type="globPattern" pattern="lib" />
       </list>
     </option>
+    <Python>
+      <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+    </Python>
   </code_scheme>
 </component>
