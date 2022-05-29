@@ -1,0 +1,6 @@
+name: "My CodeQL config"
+
+queries:
+  - uses: security-and-quality
+paths-ignore:
+  - 'lib/**'

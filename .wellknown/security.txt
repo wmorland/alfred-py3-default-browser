@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:github@williammorland.com
+Expires: 2023-05-28T22:09:00.000Z
+Encryption: openpgp4fpr:9AEC89F0B43B891754292434C0394F55B26FEB90
+Preferred-Languages: en
+Canonical: https://github.com/wmorland/alfred-py3-default-browser/blob/main/.wellknown/security.txt
+Policy: https://github.com/wmorland/alfred-py3-default-browser/blob/main/.github/SECURITY.md
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEw/x3oTRIj1ycoTCkXGQwlrw38kcFAmKTrh8ACgkQXGQwlrw3
+8kdQjw//dGL2aSEGtb/K+auHjXslEI4izA8SAfs+ud2QgxsXA41Jx48dlLpoaQsA
+cwN1lM1XyhyVcMQdOZi1cgA+cSKteSVcWD9/drKrotMAbZ5KF6WNfFEfZ7lnaqkz
+XQSNHUC1XL+dSJCbC1+PwuuMnermdzMzRDR+BSr2g2he4/zpOiUwIycmBwg8oGjC
+WKLo7IBQUIb7Dcs4cc7UPg7rp7Ktj8doCIsxTbmtSxTqHOLJSeRzH2NHAd/e+5Lb
+iwNmc88bzBka4OU9/Cj28dQZ2p7DjAouh3yf/XxAG0NaVzP9iDIHhh85xfRWUUsW
+ni54Z4KVKsFqFCpKLe3zDhwki48yGcetPEO2jDjaFXak+A6QkqbNZ712JmMoM4IJ
+rHD12wOLW739nS2d4Jz1mAe4Gj++Vx66beWnKfK6iFoC6Rp79L0uCh1xscTN/J+x
+Lzj2nRDqdKCQiljnW0pBPMi7/FTH5JW9570JI0o36PAti5kZno+Ecia+b3bvkHql
+T31gCKsYKHFO8goL34x/0DeYy3GeQfT9UEb6HIZyLTxkfdPZUWQh3Iaqvypi9liG
+R4NJhC55jdRp9ttZPZ2zHoDWogZDpnW33RY86xYbcHaD9u7xNauZFffScS17YUlH
+yZ1qP3uZZ8Kj5+Kj9xVpwPdv35n6f1aIhhskJR5nTE64DHp1vMs=
+=3gfC
+-----END PGP SIGNATURE-----

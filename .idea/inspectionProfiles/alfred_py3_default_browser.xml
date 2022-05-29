@@ -124,7 +124,7 @@
     <inspection_tool class="EmptyDirectory" enabled="false" level="WARNING" enabled_by_default="false">
       <scope name="lib" level="WARNING" enabled="false" />
     </inspection_tool>
-    <inspection_tool class="GrazieInspection" enabled="true" level="TYPO" enabled_by_default="true">
+    <inspection_tool class="GrazieInspection" enabled="true" level="TYPO" enabled_by_default="false">
       <scope name="lib" level="TYPO" enabled="false" />
     </inspection_tool>
     <inspection_tool class="HtmlExtraClosingTag" enabled="true" level="WARNING" enabled_by_default="true">
