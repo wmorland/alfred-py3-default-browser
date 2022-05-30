@@ -62,16 +62,19 @@ def main(wf: Workflow3):
             path = url.path()
 
             if browser == current_default:
+                # Use a different uid when it is currently the default. This improves suggestions.
+                uid = f"current+{browser}"
                 subtitle = "Current default browser"
                 valid = False
                 arg = None
             else:
+                uid = browser
                 subtitle = f"Set {title} as default browser"
                 valid = True
                 arg = browser
 
             wf.add_item(
-                uid=browser,
+                uid=uid,
                 title=title,
                 subtitle=subtitle,
                 icon=path,
