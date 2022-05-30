@@ -3,7 +3,7 @@
 This [Alfred](https://www.alfredapp.com) workflow makes it simple to change your default
 browser on macOS.
 
-<img src=".images/Example.png" alt="Screenshot of Alfred Workflow in action" width="50%" height="50%"/>
+<img src=".images/Example.png" alt="Screenshot of Alfred Workflow in action" width="623" height="305"/>
 
 ## Installation
 
@@ -19,13 +19,18 @@ the [Alfred Powerpack](https://www.alfredapp.com/powerpack/).
 
 The default shortcut is `db` and you can then pick a browser from the list of available
 options. macOS requires you to confirm the change in a pop up dialog. For
-example: <img src=".images/Browser Confirmation.png" alt="Screenshot of the macOS confirmation dialog" width="50%" height="50%">
+example:
+
+<img src=".images/Browser Confirmation.png" alt="Screenshot of the macOS confirmation dialog" width="372" height="392"/>
 
 ### Changing the Alfred keyword
 
 1. Open Alfred Preferences and go to 'Workflows' > 'Py3 Default Browser'.
 2. Double click on the Script Filter
-   component. <img src=".images/Script Filter.png" alt="Screenshot of the Script Filter" width="50%" height="50%">
+   component.
+
+<img src=".images/Script Filter.png" alt="Screenshot of the Script Filter" width="149" height="212"/>
+
 3. Change the keyword field to your new chosen keyword (you can leave all other fields
    the same) and then click 'Save'.
 
