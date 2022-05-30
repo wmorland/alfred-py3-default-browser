@@ -61,13 +61,13 @@
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -95,7 +95,7 @@
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -108,13 +108,33 @@
 	<key>readme</key>
 	<string># Py3 Default Browser
 
-This workflow makes it simple to change your default browser from alfred. The default shortcut is 'db' and you can then pick a browser from the list of available options. macOS requires you to confirm the change in a pop up dialog.
+		This Alfred workflow makes it simple to change your default browser on macOS.
 
-## Acknowledgements
+		## Usage
 
-Thank you to deanishe for the alfred-workflow library and NorthIsUp for updating it to Python 3.
+		The default shortcut is `db` and you can then pick a browser from the list of available options. macOS requires
+		you to confirm the change in a pop up dialog.
 
-Thank you to kerma for their work on the defaultbrowser tool which was a valuable reference.</string>
+		## Support
+
+		If you have any questions or feature requests then please file an Issue on GitHub
+		https://github.com/wmorland/alfred-py3-default-browser/issues/new or reach out to me on Twitter, @w_morland.
+
+		## Acknowledgements
+
+		Thanks to:
+
+		- [@deanishe](https://github.com/deanishe) for the
+		[alfred-workflow](https://github.com/deanishe/alfred-workflow) library.
+		- [@NorthIsUp](https://github.com/NorthIsUp) for updating it to Python 3 in
+		[alfred-workflow-py3](https://github.com/NorthIsUp/alfred-workflow-py3).
+		- [@kerma](https://github.com/kerma) for the [defaultbrowser](https://github.com/kerma/defaultbrowser) tool
+		which was a valuable reference.
+
+		## License
+
+		[MIT](LICENSE)
+	</string>
 	<key>uidata</key>
 	<dict>
 		<key>50210409-4BFA-45C8-A76D-E6983E3001C2</key>
@@ -122,7 +142,7 @@ Thank you to kerma for their work on the defaultbrowser tool which was a valuabl
 			<key>note</key>
 			<string>This runs the action to set the chosen browser as default. The user will still have to manually confirm their choice.</string>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>625</integer>
 			<key>ypos</key>
 			<integer>100</integer>
 		</dict>
@@ -136,11 +156,9 @@ Thank you to kerma for their work on the defaultbrowser tool which was a valuabl
 			<integer>100</integer>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/wmorland</string>
+	<string>https://github.com/wmorland/alfred-py3-default-browser</string>
 </dict>
 </plist>

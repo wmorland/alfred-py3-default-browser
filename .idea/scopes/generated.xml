@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="generated" pattern="file[alfred-py3-default-browser]:lib//*||file:info.plist||file:.wellknown/security.txt" />
+</component>

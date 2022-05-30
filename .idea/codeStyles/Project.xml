@@ -6,5 +6,15 @@
         <fileSet type="globPattern" pattern="lib" />
       </list>
     </option>
+    <Markdown>
+      <option name="KEEP_LINE_BREAKS_INSIDE_TEXT_BLOCKS" value="false" />
+    </Markdown>
+    <Python>
+      <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+    </Python>
+    <codeStyleSettings language="Markdown">
+      <option name="RIGHT_MARGIN" value="88" />
+      <option name="WRAP_ON_TYPING" value="0" />
+    </codeStyleSettings>
   </code_scheme>
 </component>
