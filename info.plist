@@ -108,33 +108,27 @@
 	<key>readme</key>
 	<string># Py3 Default Browser
 
-		This Alfred workflow makes it simple to change your default browser on macOS.
+This Alfred workflow makes it simple to change your default browser on macOS.
 
-		## Usage
+## Usage
 
-		The default shortcut is `db` and you can then pick a browser from the list of available options. macOS requires
-		you to confirm the change in a pop up dialog.
+The default shortcut is `db` and you can then pick a browser from the list of available options. macOS requires you to confirm the change in a pop up dialog.
 
-		## Support
+## Support
 
-		If you have any questions or feature requests then please file an Issue on GitHub
-		https://github.com/wmorland/alfred-py3-default-browser/issues/new or reach out to me on Twitter, @w_morland.
+If you have any questions or feature requests then please file an Issue on GitHub https://github.com/wmorland/alfred-py3-default-browser/issues/new or reach out to me on Twitter, @w_morland.
 
-		## Acknowledgements
+## Acknowledgements
 
-		Thanks to:
+Thanks to:
 
-		- [@deanishe](https://github.com/deanishe) for the
-		[alfred-workflow](https://github.com/deanishe/alfred-workflow) library.
-		- [@NorthIsUp](https://github.com/NorthIsUp) for updating it to Python 3 in
-		[alfred-workflow-py3](https://github.com/NorthIsUp/alfred-workflow-py3).
-		- [@kerma](https://github.com/kerma) for the [defaultbrowser](https://github.com/kerma/defaultbrowser) tool
-		which was a valuable reference.
+- [@deanishe](https://github.com/deanishe) for the [alfred-workflow](https://github.com/deanishe/alfred-workflow) library.
+- [@NorthIsUp](https://github.com/NorthIsUp) for updating it to Python 3 in [alfred-workflow-py3](https://github.com/NorthIsUp/alfred-workflow-py3).
+- [@kerma](https://github.com/kerma) for the [defaultbrowser](https://github.com/kerma/defaultbrowser) tool which was a valuable reference.
 
-		## License
+## License
 
-		[MIT](LICENSE)
-	</string>
+[MIT](LICENSE)</string>
 	<key>uidata</key>
 	<dict>
 		<key>50210409-4BFA-45C8-A76D-E6983E3001C2</key>
