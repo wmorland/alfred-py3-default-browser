@@ -3,7 +3,19 @@
 This [Alfred](https://www.alfredapp.com) workflow makes it simple to change your default
 browser on macOS.
 
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wmorland/alfred-py3-default-browser?label=Download&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ4MCAzNTJoLTEzMy41bC00NS4yNSA0NS4yNUMyODkuMiA0MDkuMyAyNzMuMSA0MTYgMjU2IDQxNnMtMzMuMTYtNi42NTYtNDUuMjUtMTguNzVMMTY1LjUgMzUySDMyYy0xNy42NyAwLTMyIDE0LjMzLTMyIDMydjk2YzAgMTcuNjcgMTQuMzMgMzIgMzIgMzJoNDQ4YzE3LjY3IDAgMzItMTQuMzMgMzItMzJ2LTk2QzUxMiAzNjYuMyA0OTcuNyAzNTIgNDgwIDM1MnpNNDMyIDQ1NmMtMTMuMiAwLTI0LTEwLjgtMjQtMjRjMC0xMy4yIDEwLjgtMjQgMjQtMjRzMjQgMTAuOCAyNCAyNEM0NTYgNDQ1LjIgNDQ1LjIgNDU2IDQzMiA0NTZ6TTIzMy40IDM3NC42QzIzOS42IDM4MC45IDI0Ny44IDM4NCAyNTYgMzg0czE2LjM4LTMuMTI1IDIyLjYyLTkuMzc1bDEyOC0xMjhjMTIuNDktMTIuNSAxMi40OS0zMi43NSAwLTQ1LjI1Yy0xMi41LTEyLjUtMzIuNzYtMTIuNS00NS4yNSAwTDI4OCAyNzQuOFYzMmMwLTE3LjY3LTE0LjMzLTMyLTMyLTMyQzIzOC4zIDAgMjI0IDE0LjMzIDIyNCAzMnYyNDIuOEwxNTAuNiAyMDEuNGMtMTIuNDktMTIuNS0zMi43NS0xMi41LTQ1LjI1IDBjLTEyLjQ5IDEyLjUtMTIuNDkgMzIuNzUgMCA0NS4yNUwyMzMuNCAzNzQuNnoiLz48L3N2Zz4%3D&sort=semver&style=for-the-badge)](https://github.com/wmorland/alfred-py3-default-browser/releases/latest/download/py3-default-browser.alfredworkflow)
+
 <img src=".images/Example.png" alt="Screenshot of Alfred Workflow in action" width="623" height="305"/>
+
+[![CodeQL](https://github.com/wmorland/alfred-py3-default-browser/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/wmorland/alfred-py3-default-browser/actions/workflows/codeql-analysis.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-success?logo=dependabot)](https://github.com/wmorland/alfred-py3-default-browser/security/dependabot)
+[![Alfred Workflow](https://img.shields.io/badge/Alfred%20Workflow-5c1f87?logo=alfred&logoColor=white)](https://www.alfredapp.com/workflows/)
+[![Python 3](https://img.shields.io/badge/Python%203-FFD43B?logo=python&logoColor=blue)](https://www.python.org)
+[![code style black](https://img.shields.io/badge/code%20style-black-000000)](https://github.com/psf/black)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wmorland/alfred-py3-default-browser?sort=semver)](https://github.com/wmorland/alfred-py3-default-browser/releases/latest/download/py3-default-browser.alfredworkflow)
+[![GitHub downloads all releases](https://img.shields.io/github/downloads/wmorland/alfred-py3-default-browser/total?logo=github)](https://github.com/wmorland/alfred-py3-default-browser/releases/latest/download/py3-default-browser.alfredworkflow)
+[![GitHub stars](https://img.shields.io/github/stars/wmorland/alfred-py3-default-browser?logo=github)](https://github.com/wmorland/alfred-py3-default-browser/stargazers)
+[![GitHub license](https://img.shields.io/github/license/wmorland/alfred-py3-default-browser?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSIjRkZGIj48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTMgNmwzIDFtMCAwbC0zIDlhNS4wMDIgNS4wMDIgMCAwMDYuMDAxIDBNNiA3bDMgOU02IDdsNi0ybTYgMmwzLTFtLTMgMWwtMyA5YTUuMDAyIDUuMDAyIDAgMDA2LjAwMSAwTTE4IDdsMyA5bS0zLTlsLTYtMm0wLTJ2Mm0wIDE2VjVtMCAxNkg5bTMgMGgzIiAvPjwvc3ZnPgo%3D)](https://github.com/wmorland/alfred-py3-default-browser/blob/main/LICENSE)
 
 ## Installation
 
