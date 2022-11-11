@@ -41,7 +41,7 @@ def get_browser_url(bundle_id):
 
 def get_browser_display_name(url):
     name = url.lastPathComponent()
-    return name
+    return name[:-4]
 
 
 def set_browser(browser: str):
