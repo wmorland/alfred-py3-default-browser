@@ -132,8 +132,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-# TODO: Deterministically generate lib without checking it in
-# lib/ Ignored as we use this for the workflow
+lib/
 lib64/
 parts/
 sdist/
@@ -279,5 +278,3 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
-
-/lib/
