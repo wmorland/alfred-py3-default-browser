@@ -53,6 +53,12 @@ If you have any questions or feature requests then
 please [file an Issue](https://github.com/wmorland/alfred-py3-default-browser/issues/new)
 on GitHub or reach out to me on Twitter, [@w_morland](https://twitter.com/w_morland).
 
+## Dependencies
+
+To build the workflow locally from source you must run
+`/usr/bin/python3 -m pip install --target=./lib -r requirements.txt` as the script
+expects the dependencies to be placed in a local folder.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what

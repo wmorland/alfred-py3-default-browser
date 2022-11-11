@@ -11,7 +11,7 @@ import __version__
 # setup access to the local lib directory
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/lib")  # noqa
 
-from workflow import Workflow3
+from workflow import Workflow
 import objc
 import CoreFoundation
 from CoreServices import LaunchServices
@@ -52,7 +52,7 @@ def set_browser(browser: str):
     )
 
 
-def main(wf: Workflow3):
+def main(wf: Workflow):
     try:
         current_default = get_current_default_browser()
         browsers = get_browsers()
@@ -112,5 +112,5 @@ if __name__ == "__main__":
     elif args.current:
         print(get_current_default_browser())
     else:
-        nwf = Workflow3()
+        nwf = Workflow()
         nwf.run(main)
